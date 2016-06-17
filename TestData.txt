@@ -1,0 +1,20 @@
+{"charactors": {
+"charactor": {
+"image": [
+{"url": "http://hosonhanvat.com/wp-content/uploads/2016/03/1-68.jpg"},
+{"url": "http://hosonhanvat.com/wp-content/uploads/2016/03/2-65.jpg"},
+{"url": "http://hosonhanvat.com/wp-content/uploads/2016/03/3-63.jpg"},
+{"url": "http://hosonhanvat.com/wp-content/uploads/2016/03/4-45.jpg"},
+{"url": "http://hosonhanvat.com/wp-content/uploads/2016/03/5-17.jpg"}
+],
+"author" : "aaa" ,
+"createBy" : "bbbb",
+"category" : "ccc",
+"date" : "12/12/2012",
+"charactorName" : "AM",
+"charactorNickName" :"AM AM ",
+"group" : "Group" ,
+"skill" : "skill",
+"content" : " Tiểu sử, sức mạnh, năng lực Khi mà vương quốc dưới núi bị từng đợt sóng xâm lược điên cuồng càn quét, những vị thầy tu của đạo Turstarkuri vẫn đang đứng yên lặng trên núi, nhìn chăm chú vào thung lũng gập ghềnh phía dưới. Sống khổ hạnh mà thực tế, bọn họ ẩn mình tại ngôi chùa trên ngọn núi cao xa xôi, đắm mình vào dòng suy tưởng, rời xa những huyên náo của đời thường, cũng rời xa khỏi sự quấy nhiễu của bất kỳ thứ ma pháp nguyên tố hay một vị thần linh nào. Thế nhưng, quân đoàn của Dead God đã tới, mang theo nó là sự phá hủy của mọi Tín ngưỡng, cũng ép buộc những người dân bản xứ phải thờ phụng chủ nghĩa hư vô của Unliving Lord (cũng chính là Dead God, chỉ là 2 cách gọi khác nhau). Đến từ vùng đất của một ngàn năm chiến loạn cùng những cơn gió tanh mưa máu, quân đoàn của Dead God xé tan linh hồn cũng như thi hài của những kẻ chiến bại, dùng đó để khủng bố và phá hủy Tín Ngưỡng của chùa Turstarkuri. Đối mặt với những đợt tấn công khủng bố như thế, ngôi chùa chỉ kiên trì được trong chưa đầy 15 ngày. Thậm chí, có một số ít thầy tu khi vừa mới tỉnh lại từ sự suy tưởng, còn cho rằng những kẻ xâm lược chỉ là ảo giác mà lũ ác ma biến hóa ra để quấy nhiễu dòng suy tưởng của họ. Vì thế, họ chết ở trên chính chiếc đệm lụa của mình. Chỉ có một người trẻ tuổi còn sống sót sau đợt thảm sát. Hắn đến với Turstarkuri để tìm kiếm trí tuệ, nhưng chưa được ngôi chùa chấp thuận để trở thành một tăng lữ. Hắn hoảng sợ nhìn những vị tăng lữ mà mình từng phục vụ bị giết, sau đó lại bị phục sinh để trở thành tư tế của Dead God. Chạy trốn đến một nơi tương đối an toàn, mang theo những quyển trục cất chứa giáo lí quý giá của đạo Turstarkuri, hắn thề, sẽ không chỉ tiêu diệt tất cả những kẻ sử dụng ma thuật của Dead God, mà còn phải đặt một dấu chấm hết cho 2 từ “ma thuật” một cách hoàn toàn. *Không thấy Valve đề cập đến tên của Anti-Mage, không biết có còn là Magina như Dota nữa không.*Có vẻ như Antimage là người Anh hoặc một số nước lân cận đó thuộc Vương quốc Anh bởi anh chàng này nói tiếng Anh theo kiểu tiếng Anh thời trung đại, ví dụ như anh ta nói “thy” thay cho your, “thou” thay cho those, v.v…"
+}
+}}
