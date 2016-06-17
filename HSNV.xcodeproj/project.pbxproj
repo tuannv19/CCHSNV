@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		173770ED1D145CB60031984B /* CardNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 173770EC1D145CB60031984B /* CardNode.m */; };
+		1737711F1D1466A70031984B /* PINRemoteImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1737711E1D1466A00031984B /* PINRemoteImage.framework */; };
 		17744BB61D144EA600242AF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17744BB51D144EA600242AF9 /* main.m */; };
 		17744BB91D144EA600242AF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17744BB81D144EA600242AF9 /* AppDelegate.m */; };
 		17744BBC1D144EA600242AF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17744BBB1D144EA600242AF9 /* ViewController.m */; };
@@ -14,9 +16,61 @@
 		17744BC11D144EA600242AF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17744BC01D144EA600242AF9 /* Assets.xcassets */; };
 		17744BC41D144EA600242AF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17744BC21D144EA600242AF9 /* LaunchScreen.storyboard */; };
 		17744BCE1D144F2700242AF9 /* TestData.txt in Resources */ = {isa = PBXBuildFile; fileRef = 17744BCD1D144F2700242AF9 /* TestData.txt */; };
+		17744BE11D14552100242AF9 /* libAsyncDisplayKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17744BD81D1454A600242AF9 /* libAsyncDisplayKit.a */; };
+		17744BE31D14552C00242AF9 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17744BE21D14552C00242AF9 /* AssetsLibrary.framework */; };
+		17744BE51D14553400242AF9 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17744BE41D14553400242AF9 /* Photos.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1737711D1D1466A00031984B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 173771191D1466A00031984B /* PINRemoteImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F1B918D11BCF239200710963;
+			remoteInfo = "PINRemoteImage-iOS";
+		};
+		17744BD71D1454A600242AF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17744BD01D1454A600242AF9 /* AsyncDisplayKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 058D09AC195D04C000B7D73C;
+			remoteInfo = AsyncDisplayKit;
+		};
+		17744BD91D1454A600242AF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17744BD01D1454A600242AF9 /* AsyncDisplayKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 058D09BC195D04C000B7D73C;
+			remoteInfo = AsyncDisplayKitTests;
+		};
+		17744BDB1D1454A600242AF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17744BD01D1454A600242AF9 /* AsyncDisplayKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 057D02BF1AC0A66700C7AC3C;
+			remoteInfo = AsyncDisplayKitTestHost;
+		};
+		17744BDD1D1454A600242AF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17744BD01D1454A600242AF9 /* AsyncDisplayKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B35061DA1B010EDF0018CF92;
+			remoteInfo = "AsyncDisplayKit-iOS";
+		};
+		17744BDF1D14550B00242AF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17744BD01D1454A600242AF9 /* AsyncDisplayKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 058D09AB195D04C000B7D73C;
+			remoteInfo = AsyncDisplayKit;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		173770EB1D145CB60031984B /* CardNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardNode.h; sourceTree = "<group>"; };
+		173770EC1D145CB60031984B /* CardNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardNode.m; sourceTree = "<group>"; };
+		173770EE1D145D160031984B /* HSNV-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HSNV-Prefix.pch"; sourceTree = "<group>"; };
+		173771191D1466A00031984B /* PINRemoteImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PINRemoteImage.xcodeproj; path = PINRemoteImage/PINRemoteImage/PINRemoteImage.xcodeproj; sourceTree = SOURCE_ROOT; };
 		17744BB11D144EA600242AF9 /* HSNV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSNV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17744BB51D144EA600242AF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		17744BB71D144EA600242AF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +82,9 @@
 		17744BC31D144EA600242AF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17744BC51D144EA600242AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17744BCD1D144F2700242AF9 /* TestData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TestData.txt; sourceTree = "<group>"; };
+		17744BD01D1454A600242AF9 /* AsyncDisplayKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AsyncDisplayKit.xcodeproj; path = AsyncDisplayKit/AsyncDisplayKit.xcodeproj; sourceTree = SOURCE_ROOT; };
+		17744BE21D14552C00242AF9 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		17744BE41D14553400242AF9 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,15 +92,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1737711F1D1466A70031984B /* PINRemoteImage.framework in Frameworks */,
+				17744BE51D14553400242AF9 /* Photos.framework in Frameworks */,
+				17744BE31D14552C00242AF9 /* AssetsLibrary.framework in Frameworks */,
+				17744BE11D14552100242AF9 /* libAsyncDisplayKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1737711A1D1466A00031984B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1737711E1D1466A00031984B /* PINRemoteImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		17744BA81D144EA500242AF9 = {
 			isa = PBXGroup;
 			children = (
+				17744BE41D14553400242AF9 /* Photos.framework */,
+				17744BE21D14552C00242AF9 /* AssetsLibrary.framework */,
 				17744BCD1D144F2700242AF9 /* TestData.txt */,
 				17744BB31D144EA600242AF9 /* HSNV */,
 				17744BB21D144EA600242AF9 /* Products */,
@@ -61,6 +132,7 @@
 		17744BB31D144EA600242AF9 /* HSNV */ = {
 			isa = PBXGroup;
 			children = (
+				17744BCF1D14549D00242AF9 /* Framework */,
 				17744BB71D144EA600242AF9 /* AppDelegate.h */,
 				17744BB81D144EA600242AF9 /* AppDelegate.m */,
 				17744BBA1D144EA600242AF9 /* ViewController.h */,
@@ -70,6 +142,9 @@
 				17744BC21D144EA600242AF9 /* LaunchScreen.storyboard */,
 				17744BC51D144EA600242AF9 /* Info.plist */,
 				17744BB41D144EA600242AF9 /* Supporting Files */,
+				173770EB1D145CB60031984B /* CardNode.h */,
+				173770EC1D145CB60031984B /* CardNode.m */,
+				173770EE1D145D160031984B /* HSNV-Prefix.pch */,
 			);
 			path = HSNV;
 			sourceTree = "<group>";
@@ -80,6 +155,26 @@
 				17744BB51D144EA600242AF9 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17744BCF1D14549D00242AF9 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				173771191D1466A00031984B /* PINRemoteImage.xcodeproj */,
+				17744BD01D1454A600242AF9 /* AsyncDisplayKit.xcodeproj */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		17744BD11D1454A600242AF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17744BD81D1454A600242AF9 /* libAsyncDisplayKit.a */,
+				17744BDA1D1454A600242AF9 /* AsyncDisplayKitTests.xctest */,
+				17744BDC1D1454A600242AF9 /* AsyncDisplayKitTestHost.app */,
+				17744BDE1D1454A600242AF9 /* AsyncDisplayKit.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +191,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				17744BE01D14550B00242AF9 /* PBXTargetDependency */,
 			);
 			name = HSNV;
 			productName = HSNV;
@@ -127,12 +223,60 @@
 			mainGroup = 17744BA81D144EA500242AF9;
 			productRefGroup = 17744BB21D144EA600242AF9 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 17744BD11D1454A600242AF9 /* Products */;
+					ProjectRef = 17744BD01D1454A600242AF9 /* AsyncDisplayKit.xcodeproj */;
+				},
+				{
+					ProductGroup = 1737711A1D1466A00031984B /* Products */;
+					ProjectRef = 173771191D1466A00031984B /* PINRemoteImage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				17744BB01D144EA600242AF9 /* HSNV */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1737711E1D1466A00031984B /* PINRemoteImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PINRemoteImage.framework;
+			remoteRef = 1737711D1D1466A00031984B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		17744BD81D1454A600242AF9 /* libAsyncDisplayKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAsyncDisplayKit.a;
+			remoteRef = 17744BD71D1454A600242AF9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		17744BDA1D1454A600242AF9 /* AsyncDisplayKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AsyncDisplayKitTests.xctest;
+			remoteRef = 17744BD91D1454A600242AF9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		17744BDC1D1454A600242AF9 /* AsyncDisplayKitTestHost.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = AsyncDisplayKitTestHost.app;
+			remoteRef = 17744BDB1D1454A600242AF9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		17744BDE1D1454A600242AF9 /* AsyncDisplayKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AsyncDisplayKit.framework;
+			remoteRef = 17744BDD1D1454A600242AF9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		17744BAF1D144EA600242AF9 /* Resources */ = {
@@ -153,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				173770ED1D145CB60031984B /* CardNode.m in Sources */,
 				17744BBC1D144EA600242AF9 /* ViewController.m in Sources */,
 				17744BB91D144EA600242AF9 /* AppDelegate.m in Sources */,
 				17744BB61D144EA600242AF9 /* main.m in Sources */,
@@ -160,6 +305,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17744BE01D14550B00242AF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AsyncDisplayKit;
+			targetProxy = 17744BDF1D14550B00242AF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		17744BBD1D144EA600242AF9 /* Main.storyboard */ = {
@@ -268,9 +421,16 @@
 		17744BC91D144EA600242AF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/tuan/HSNV/HSNV/HSNV-Prefix.pch";
+				HEADER_SEARCH_PATHS = "/Users/tuan/Library/Developer/Xcode/DerivedData/HSNV-bopwdtutaxveyadkfbcxuiasxyye/Build/Products/Debug-iphonesimulator/include";
 				INFOPLIST_FILE = HSNV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ants.vn.HSNV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -279,9 +439,16 @@
 		17744BCA1D144EA600242AF9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/tuan/HSNV/HSNV/HSNV-Prefix.pch";
+				HEADER_SEARCH_PATHS = "/Users/tuan/Library/Developer/Xcode/DerivedData/HSNV-bopwdtutaxveyadkfbcxuiasxyye/Build/Products/Debug-iphonesimulator/include";
 				INFOPLIST_FILE = HSNV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ants.vn.HSNV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -306,6 +473,7 @@
 				17744BCA1D144EA600242AF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

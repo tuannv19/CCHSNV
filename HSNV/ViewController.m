@@ -7,6 +7,10 @@
 //
 
 #import "ViewController.h"
+#import <PINRemoteImage/PINRemoteImage.h>
+#import <PINRemoteImage/PINImageView+PINRemoteImage.h>
+#import <PINCache/PINCache.h>
+
 
 @interface ViewController ()
 
@@ -17,6 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning {

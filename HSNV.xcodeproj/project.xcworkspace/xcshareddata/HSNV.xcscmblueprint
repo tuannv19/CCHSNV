@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "02A0100B421DC885515F07ED9D50743E7FCF0AA9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "44B36422A7A7C3AD3DE414BC27AA89E3C0009BBA" : 0,
+    "02A0100B421DC885515F07ED9D50743E7FCF0AA9" : 0,
+    "F50970FDD9A73637F0802C23B728B6B5862D49A6" : 0,
+    "9B1DC435B89529078DE1FAE4D39ED8D2F4E74032" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9CE44654-BFC9-4D9F-B2C9-C86D64649AFA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "44B36422A7A7C3AD3DE414BC27AA89E3C0009BBA" : "HSNV\/PINCache\/",
+    "02A0100B421DC885515F07ED9D50743E7FCF0AA9" : "HSNV\/",
+    "F50970FDD9A73637F0802C23B728B6B5862D49A6" : "HSNV\/AsyncDisplayKit\/",
+    "9B1DC435B89529078DE1FAE4D39ED8D2F4E74032" : "HSNV\/PINRemoteImage\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HSNV",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HSNV.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tuannv19\/CCHSNV.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "02A0100B421DC885515F07ED9D50743E7FCF0AA9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pinterest\/PINCache.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "44B36422A7A7C3AD3DE414BC27AA89E3C0009BBA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pinterest\/PINRemoteImage.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9B1DC435B89529078DE1FAE4D39ED8D2F4E74032"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/facebook\/AsyncDisplayKit",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F50970FDD9A73637F0802C23B728B6B5862D49A6"
+    }
+  ]
+}

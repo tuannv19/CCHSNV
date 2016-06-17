@@ -1,3 +1,9 @@
 [submodule "AsyncDisplayKit"]
 	path = AsyncDisplayKit
 	url = https://github.com/facebook/AsyncDisplayKit
+[submodule "PINRemoteImage"]
+	path = PINRemoteImage
+	url = https://github.com/pinterest/PINRemoteImage.git
+[submodule "PINCache"]
+	path = PINCache
+	url = https://github.com/pinterest/PINCache.git
